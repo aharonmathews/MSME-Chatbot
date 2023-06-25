@@ -1,0 +1,99 @@
+body {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    z-index: 0;
+}
+
+#logo{
+    font-size: 30px;
+}
+
+form {
+    margin: 0px;
+    padding : 100px;
+    position:sticky;
+    bottom:0px;
+}
+
+.sendbutton {
+    z-index: 2;
+    background-color: #ababab;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: sticky;
+    bottom: 0px;
+    right: 300px;
+    border-radius: 5px;
+}
+
+.container-fluid {
+    height: 40px;
+    border-bottom: #ababab;
+}
+
+.back{
+    opacity: 0.8;
+    margin: auto;
+    position: absolute;
+    height:1500px;
+    width:1200px;
+    z-index: -1;
+}
+
+
+.container-fluid:hover{
+    border-bottom: #8A6DF2;
+}
+
+.container-fluid a{
+    color:#ababab;
+}
+
+.container-fluid a:hover{
+    color: #8A6DF2;
+}
+
+.sendbutton:hover {
+    background-color: #8A6DF2;
+}
+
+.chat-conversation {
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 300px;
+    padding: 15px;
+    background-color: white;
+    z-index: 1;
+}
+
+.user-message {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.bot-message {
+    margin: 10px 0;
+}
+
+.searchbar{
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+    position: fixed;
+    height: 30%;
+    left: 500px;
+    bottom: 0px;
+    width: 70%;
+    margin: auto;
+    border-radius:10px;
+    border-color:#8A6DF2;
+}
+
+
+
